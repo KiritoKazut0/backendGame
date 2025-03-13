@@ -1,5 +1,6 @@
 import 'dotenv/config'
 import './Config/ConectionDatabase'
+import cors from "cors"
 import express from "express"
 import {createServer} from "node:http"
 import { SocketServer } from "./Socket";
@@ -8,6 +9,9 @@ import router from "./routes/routes";
 const port = 3000;
 const app = express();
 app.use(express.json())
+app.use(cors({
+    origin: "*"
+}))
 app.use('/',router)
 
 const server = createServer(app);
