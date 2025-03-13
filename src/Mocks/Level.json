@@ -1,0 +1,240 @@
+[
+    {
+        "nivel": 1,
+        "dificultad": "principiante",
+        "descripcion": "Encuentra objetos que empiecen con 'f', una vocal y terminen con 'co'. ¡El Dr. Explosivo necesita estos para su mezcla secreta!",
+        "patron": "f[aeiou]\\w*co\\b",
+        "palabrasCorrectas": [
+            "frasco", "foco", "fico", "fiasco", 
+            "fuleco", "faísco", "furico"
+        ],
+        "estatus": "pendiente"
+    },
+    {
+        "nivel": 2,
+        "dificultad": "principiante",
+        "descripcion": "El científico busca frascos de cristal. ¡Mucha atención!",
+        "patron": "f\\w*cristal\\b",
+        "palabrasCorrectas": [
+            "frasco de cristal", "frasquito de cristal", 
+            "frascal de cristal", "frascoleta de cristal"
+        ],
+        "estatus": "pendiente"
+    },
+    {
+        "nivel": 3,
+        "dificultad": "principiante",
+        "descripcion": "Encuentra objetos que empiecen con 'b', vocal y terminen con 'a'.",
+        "patron": "b[aeiou]\\w*a\\b",
+        "palabrasCorrectas": [
+            "bata", "botella", "balanza", "batata", 
+            "balada", "baraja", "barca", "ballena", 
+            "boina", "bonanza", "barrera"
+        ],
+        "estatus": "pendiente"
+    },
+    {
+        "nivel": 4,
+        "dificultad": "principiante",
+        "descripcion": "Busca cosas que empiecen con 'p', vocal y terminen con 'o'.",
+        "patron": "p[aeiou]\\w*o\\b",
+        "palabrasCorrectas": [
+            "pipeta", "plato", "póster", "palito", 
+            "pelado", "pesado", "peinado", "pañuelo", 
+            "perro", "penco", "puño"
+        ],
+        "estatus": "pendiente"
+    },
+    {
+        "nivel": 5,
+        "dificultad": "principiante",
+        "descripcion": "Encuentra instrumentos que empiecen con 'm' y terminen con 'o'.",
+        "patron": "m[aeiou]\\w*o\\b",
+        "palabrasCorrectas": [
+            "microscopio", "matraz", "mango", "macho", 
+            "maestro", "manojo", "martillo", "mondo", 
+            "metro", "mueco", "muro"
+        ],
+        "estatus": "pendiente"
+    },
+    {
+        "nivel": 6,
+        "dificultad": "aficionado",
+        "descripcion": "Busca objetos que terminen con 'ina', típicos en el laboratorio.",
+        "patron": "\\w*ina\\b",
+        "palabrasCorrectas": [
+            "aspirina", "gelatina", "quinina", "cocina", 
+            "rutina", "medicina", "disciplina", "máquina", 
+            "colmena", "oficina"
+        ],
+        "estatus": "pendiente"
+    },
+    {
+        "nivel": 7,
+        "dificultad": "aficionado",
+        "descripcion": "Ahora busca objetos que tengan 'lab' en su nombre.",
+        "patron": "\\w*lab\\w*",
+        "palabrasCorrectas": [
+            "minilab", "microlab", "superlab", "laboratorio", 
+            "elaborar", "colaborar", "trabajo", "tablero", 
+            "ablación", "laberinto"
+        ],
+        "estatus": "pendiente"
+    },
+    {
+        "nivel": 8,
+        "dificultad": "aficionado",
+        "descripcion": "Busca palabras que empiezan con dos consonantes seguidas.",
+        "patron": "^[^aeiou]{2}\\w*",
+        "palabrasCorrectas": [
+            "crisol", "prueba", "grasa", "planta", 
+            "truco", "crema", "droga", "frasco", 
+            "clavo", "bruma"
+        ],
+        "estatus": "pendiente"
+    },
+    {
+        "nivel": 9,
+        "dificultad": "aficionado",
+        "descripcion": "Busca instrumentos científicos que terminen en 'mento'.",
+        "patron": "\\w*mento\\b",
+        "palabrasCorrectas": [
+            "experimento", "fermento", "documento", "momento", 
+            "complemento", "fragmento", "instrumento", 
+            "pensamiento", "sedimento"
+        ],
+        "estatus": "pendiente"
+    },
+    {
+        "nivel": 10,
+        "dificultad": "aficionado",
+        "descripcion": "Busca herramientas que terminen en 'o' pero no empiecen con una vocal.",
+        "patron": "^[^aeiou]\\w*o\\b",
+        "palabrasCorrectas": [
+            "tubo", "frasco", "crisol", "martillo", 
+            "plato", "libro", "metro", "clavo", 
+            "termo", "foco"
+        ],
+        "estatus": "pendiente"
+    },
+    {
+        "nivel": 11,
+        "dificultad": "desafiante",
+        "descripcion": "Busca objetos de laboratorio que terminen en 'er'.",
+        "patron": "\\w*er\\b",
+        "palabrasCorrectas": [
+            "mecher", "poder", "hacer", "saber", 
+            "meter", "tener", "querer", "coger", 
+            "comer", "leer"
+        ],
+        "estatus": "pendiente"
+    },
+    {
+        "nivel": 12,
+        "dificultad": "desafiante",
+        "descripcion": "Busca sustancias que terminan en 'ato'.",
+        "patron": "\\w*ato\\b",
+        "palabrasCorrectas": [
+            "nitrato", "sulfato", "acetato", "carbonato", 
+            "fosfato", "silicato", "borato", "clorato", 
+            "nitrito", "citrato"
+        ],
+        "estatus": "pendiente"
+    },
+    {
+        "nivel": 13,
+        "dificultad": "desafiante",
+        "descripcion": "Busca frascos o botellas que contengan 'bot'.",
+        "patron": "\\w*bot\\w*",
+        "palabrasCorrectas": [
+            "botella", "botiquín", "botulismo", "robot", 
+            "embotellado", "botonadura", "rebote", "subótimo", 
+            "abotargado"
+        ],
+        "estatus": "pendiente"
+    },
+    {
+        "nivel": 14,
+        "dificultad": "desafiante",
+        "descripcion": "Busca herramientas de laboratorio que contienen la palabra 'term'.",
+        "patron": "\\w*term\\w*",
+        "palabrasCorrectas": [
+            "termómetro", "termostato", "termopar", "térmico", 
+            "interminable", "termosifón", "terminal", "términos", 
+            "determinar"
+        ],
+        "estatus": "pendiente"
+    },
+    {
+        "nivel": 15,
+        "dificultad": "desafiante",
+        "descripcion": "Busca objetos de laboratorio que tengan 'quím' en su nombre.",
+        "patron": "\\w*quím\\w*",
+        "palabrasCorrectas": [
+            "química", "químico", "quimioterapia", "quimera", 
+            "químicamente", "quimioluminiscencia", "alquimia", 
+            "quimiotecnia"
+        ],
+        "estatus": "pendiente"
+    },
+    {
+        "nivel": 16,
+        "dificultad": "experto",
+        "descripcion": "Busca instrumentos que empiezan con 'e' y terminan en 'a'.",
+        "patron": "e\\w*a\\b",
+        "palabrasCorrectas": [
+            "escalera", "era", "electrodo", "escala", 
+            "espada", "etapa", "entrada", "escuadra", 
+            "espalda"
+        ],
+        "estatus": "pendiente"
+    },
+    {
+        "nivel": 17,
+        "dificultad": "experto",
+        "descripcion": "Busca palabras que empiecen con 'c' y terminen en 'o'.",
+        "patron": "c[aeiou]\\w*o\\b",
+        "palabrasCorrectas": [
+            "crisol", "ciclo", "carbón", "cedazo", 
+            "cauto", "cetáceo", "carnero", "calculo", 
+            "cesto"
+        ],
+        "estatus": "pendiente"
+    },
+    {
+        "nivel": 18,
+        "dificultad": "experto",
+        "descripcion": "Busca palabras que contengan la secuencia 'flu'.",
+        "patron": "\\w*flu\\w*",
+        "palabrasCorrectas": [
+            "fluctuación", "fluido", "flúor", "influencia", 
+            "flujo", "fluidez", "afluente", "confluencia", 
+            "reflujo"
+        ],
+        "estatus": "pendiente"
+    },
+    {
+        "nivel": 19,
+        "dificultad": "experto",
+        "descripcion": "Busca nombres de sustancias que terminan en 'uro'.",
+        "patron": "\\w*uro\\b",
+        "palabrasCorrectas": [
+            "mercurio", "sodio", "potasio", "cianuro", 
+            "azufre", "carburo", "sulfuro", "fluoruro", 
+            "cloruro"
+        ],
+        "estatus": "pendiente"
+    },
+    {
+        "nivel": 20,
+        "dificultad": "experto",
+        "descripcion": "Busca palabras que empiezan con 'a' y contienen la letra 'l'.",
+        "patron": "a\\w*l\\w*",
+        "palabrasCorrectas": [
+            "ácido", "alquimia", "aluminio", "alcalde", 
+            "algo", "altar", "alfabeto", "almacén", 
+            "alianza"
+        ],
+        "estatus": "pendiente"
+    }
+]

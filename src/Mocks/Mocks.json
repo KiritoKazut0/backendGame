@@ -1,0 +1,16 @@
+{
+    "titulo": "Los Desafíos Secretos del Dr. Explosivo: Misión Máximo Científico",
+    "descripcionJuego": "¡Ayuda al Dr. Explosivo a completar 30 misiones científicas cada vez más desafiantes!",
+    "científico": {
+        "nombre": "Dr. Explosivo",
+        "edad": 42,
+        "especialidad": "Química Extrema",
+        "laboratorio": "Laboratorio de los Desafíos Imposibles"
+    },
+    "nivelesLeyenda": {
+        "principiante": "🟢 Verde: Fácil de resolver",
+        "aficionado": "🟡 Amarillo: Requiere concentración",
+        "desafiante": "🟠 Naranja: Difícil, necesitas estrategia",
+        "experto": "🔴 Rojo: Solo para científicos geniales"
+    }
+}
